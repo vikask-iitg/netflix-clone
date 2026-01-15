@@ -93,6 +93,10 @@
     .navbar img {
         height: 25px;
     }
+
+    .navbar-profile .profile {
+        width: 25px;
+    }
 }
 
 @media (max-width: 500px) {
@@ -102,5 +106,13 @@
 
     .navbar-right {
         gap: 10px;
+    }
+
+    .profile {
+        width: 10px;
+    }
+
+    .navbar-profile .profile {
+        width: 20px;
     }
 }
