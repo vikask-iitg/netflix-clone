@@ -33,7 +33,26 @@ const Login = () => {
       (<div className='login'>
         <img src={logo} className='login-logo'></img>
         <div className='login-form'>
+
           <h1>{signState}</h1>
+
+          {/* Demo Credentials */}
+          {signState === "Sign In" && (
+            <div
+              className="demo-credentials"
+              onClick={() => {
+                setEmail("demo@gmail.com");
+                setPassword("12345678");
+              }}
+            >
+              <p className="demo-heading">Demo Credentials</p>
+              <p className='demo-email'>Email: demo@gmail.com</p>
+              <p className='demo-password'>Password: 12345678</p>
+              <p className="demo-click">[Click Here To Auto Fill]</p>
+            </div>
+          )}
+
+
           <form>
             {
               signState === "Sign Up" ?

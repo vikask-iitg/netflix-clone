@@ -100,6 +100,45 @@
     width: 60px;
 }
 
+/* Demo Credentials Box – Netflix Subtle */
+.demo-credentials {
+    background: rgba(20, 20, 20, 0.35);
+    border: 1px solid rgba(229, 9, 20, 0.25); 
+    border-radius: 6px;
+    padding: 14px 16px;
+    margin-bottom: 20px;
+    text-align: center;
+    cursor: pointer;
+    font-family: inherit;
+}
+
+.demo-heading {
+    color: #b81d24;           
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+.demo-email,
+.demo-password {
+    color: #d1d1d1;           
+    font-size: 13px;
+    font-weight: 400;
+    margin: 2px 0;
+    line-height: 1.4;
+}
+
+.demo-password {
+    margin-bottom: 10px;
+}
+
+.demo-click {
+    color: #a94442;          
+    font-size: 12px;
+    font-weight: 600;
+}
+
+
 @media (max-width : 500px) {
     .login {
         padding: 15px 5%;
