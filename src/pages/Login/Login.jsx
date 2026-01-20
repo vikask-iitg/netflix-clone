@@ -48,7 +48,7 @@ const Login = () => {
               <p className="demo-heading">Demo Credentials</p>
               <p className='demo-email'>Email: demo@gmail.com</p>
               <p className='demo-password'>Password: 12345678</p>
-              <p className="demo-click">[Click Here To Auto Fill]</p>
+              <p className="demo-click">[ Click Here To Auto Fill ]</p>
             </div>
           )}
 
