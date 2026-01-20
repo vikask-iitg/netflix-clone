@@ -108,7 +108,6 @@
     padding: 14px 16px;
     margin-bottom: 20px;
     text-align: center;
-    cursor: pointer;
     font-family: inherit;
 }
 
@@ -136,6 +135,7 @@
     color: #b81d24;          
     font-size: 12px;
     font-weight: 600;
+    cursor: pointer;
 }
 
 

@@ -38,19 +38,24 @@ const Login = () => {
 
           {/* Demo Credentials */}
           {signState === "Sign In" && (
-            <div
-              className="demo-credentials"
-              onClick={() => {
-                setEmail("demo@gmail.com");
-                setPassword("12345678");
-              }}
-            >
+            <div className="demo-credentials">
               <p className="demo-heading">Demo Credentials</p>
-              <p className='demo-email'>Email: demo@gmail.com</p>
-              <p className='demo-password'>Password: 12345678</p>
-              <p className="demo-click">[ Click Here To Auto Fill ]</p>
+              <p className="demo-email">Email: demo@gmail.com</p>
+              <p className="demo-password">Password: 12345678</p>
+
+              <p
+                className="demo-click"
+                onClick={(e) => {
+                  e.stopPropagation(); // prevent parent clicks (safe)
+                  setEmail("demo@gmail.com");
+                  setPassword("12345678");
+                }}
+              >
+                [ Click Here To Auto Fill ]
+              </p>
             </div>
           )}
+
 
 
           <form>
